@@ -1,6 +1,6 @@
 import streamlit as st
 st.write("Hello, World!")
 
-st.title("Title")
-st.header("Header")
-st.subheader("Sub-header")
+st.title("are we deaduzz?")
+st.header("HAWK TUAH")
+st.subheader("Spit on that thang")
