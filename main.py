@@ -17,12 +17,14 @@ slider_value= st.slider('select a value',1, 100, 50)
 Gender=st.radio('select your gender:', {"Male", 'other', 'female'})
 #checkboxes for hobbies
 hobbies=[]
-if st.checkbox('reading'):
-        hobbies.append('reading')
-if st.checkbox('traveling'):
-      hobbies.append('traveling')
-if st.checkbox('cooking'):
-      hobbies.append('cooking')
+if st.checkbox('cant put down the cup'):
+        hobbies.append('cant put down the cup')
+if st.checkbox('chill dude'):
+      hobbies.append('chill dude')
+if st.checkbox('full box'):
+      hobbies.append('full box')
+#birth date selection
+birthdate=st.date_inpu ('slect your birthdate:', da(2000, 1, 1))
 # Submit button
 if st.button('submit'):
     st.write(f'Name: {name}')
