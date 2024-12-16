@@ -9,7 +9,7 @@ st.header("user information users")
 # Text input for name
 name= st.text_input('Enter your name')
 # Dropdown menu for selecting an option
-option=['option 1', 'option 2' , 'option 3']
+option=['Hawk Tuah', 'Stillwater' , 'Lunchly']
 selected_option= st.selectbox('choose an option', option)
 # Slider for selecting a value
 slider_value= st.slider('select a value',1, 100, 50)
