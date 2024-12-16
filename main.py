@@ -14,7 +14,7 @@ selected_option= st.selectbox('choose an option', option)
 # Slider for selecting a value
 slider_value= st.slider('select a value',1, 100, 50)
 #radio button for selecting gender
-Gender=st.radio('select your gender:', {"Male", 'Female', 'other'})
+Gender=st.radio('select your gender:', {"Male", 'other', 'female'})
 #checkboxes for hobbies
 hobbies=[]
 if st.checkbox('reading'):
